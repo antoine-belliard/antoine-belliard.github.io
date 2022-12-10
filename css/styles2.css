@@ -1,0 +1,103 @@
+body {
+	font-family: Helvetica;
+	background-image: linear-gradient(
+		to bottom,
+		#d70047,
+		#ecf76f);
+	background-color: #d70047;
+	color: white;
+	text-shadow: 1px 1px 2px gray;
+}
+
+body img {
+	box-shadow: 1px 1px 2px gray;
+}
+
+main div {
+	padding:50px;
+}
+
+header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+nav {
+	display: flex;
+	justify-content: center;
+	position: fixed;
+	background-image: linear-gradient(
+		to right,
+		darkgrey,
+		lightgrey);
+	padding: 5px;
+	border-radius: 5px;
+}
+
+nav div {
+	margin-left: 5px;
+	margin-right: 5px;
+	
+}
+
+a {
+	color: white;
+}
+
+div.profil {
+	text-align: center;
+}
+
+div.bio {
+	display: flex;
+	max-width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	align-items: center;
+}
+
+div.bio img {
+	max-width: 50%;
+	border-radius: 5px;
+}
+
+article {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 50%;
+}
+
+article div {
+	margin-top : 50px;
+	border-radius : 5px;
+	text-shadow: 1px 1px 2px black;
+}
+
+article img {
+	display: block;
+	max-width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.article1 {
+	display: block;
+	background-image: url('../img/epitaph.png');
+	background-size: cover;
+}
+
+.article2 {
+	display: block;
+	background-image: url('../img/mimic-gotta-sneak.png');
+	background-size: cover;
+}
+
+.article3 {
+	display: block;
+	background-image: url('../img/oneusehero.png');
+	background-size: cover;
+}
