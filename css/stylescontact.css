@@ -1,0 +1,15 @@
+body {
+	font-family: Helvetica;
+	background-image: linear-gradient(
+		to bottom,
+		#d70047,
+		#ecf76f);
+	background-color: #d70047;
+	background-repeat: no-repeat;
+	color: white;
+	text-shadow: 1px 1px 2px gray;
+}
+
+main {
+	height: 100%;
+}
