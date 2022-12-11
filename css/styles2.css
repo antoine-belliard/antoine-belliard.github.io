@@ -115,6 +115,16 @@ article img {
 	background-size: cover;
 }
 
+.zealothan {
+	background-image: url('../img/zealothan.png');
+	background-size: cover;
+}
+
+.codexgeronimus {
+	background-image: url('../img/CodexGeronimus.png');
+	background-size: cover;
+}
+
 /*Parcours*/
 
 body.bodyparcours {
