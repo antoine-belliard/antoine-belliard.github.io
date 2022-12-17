@@ -3,8 +3,7 @@ body {
 	background-image: linear-gradient(
 		to bottom,
 		#d70047,
-		#ecf76f 90%,
-		#d70047 100%);
+		#ecf76f);
 	background-color: #d70047;
 	background-repeat: no-repeat;
 	color: white;
@@ -61,14 +60,15 @@ div.profil {
 div.bio {
 	margin-top: 90px;
 	display: flex;
-	max-width: 50%;
+	max-width: 80%;
 	margin-left: auto;
 	margin-right: auto;
 	align-items: center;
 }
 
 div.bio img {
-	max-width: 50%;
+	max-width: 40%;
+	max-height: 100%;
 }
 
 article {
@@ -95,6 +95,11 @@ article img {
 	max-width: 70%;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+#linkedin {
+	color:#0072b1;
+	font-size: 1.5em;
 }
 
 .article1 {
