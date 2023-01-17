@@ -104,34 +104,34 @@ article img {
 
 .article1 {
 	display: block;
-	background-image: url('../img/epitaph.png');
+	background-image: linear-gradient(to bottom, rgba(0, 0, 0,0.5), rgba(0, 0, 0, 0.5)), url('../img/epitaph.png');
 	background-size: cover;
 }
 
 .article2 {
 	display: block;
-	background-image: url('../img/mimic-gotta-sneak.png');
+	background-image: linear-gradient(to bottom, rgba(0, 0, 0,0.5), rgba(0, 0, 0, 0.5)),url('../img/mimic-gotta-sneak.png');
 	background-size: cover;
 }
 
 .article3 {
 	display: block;
-	background-image: url('../img/oneusehero.png');
+	background-image: linear-gradient(to bottom, rgba(0, 0, 0,0.5), rgba(0, 0, 0, 0.5)),url('../img/oneusehero.png');
 	background-size: cover;
 }
 
 .zealothan {
-	background-image: url('../img/Zealothan.png');
+	background-image: linear-gradient(to bottom, rgba(0, 0, 0,0.5), rgba(0, 0, 0, 0.5)),url('../img/Zealothan.png');
 	background-size: cover;
 }
 
 .codexgeronimus {
-	background-image: url('../img/CodexGeronimus.png');
+	background-image: linear-gradient(to bottom, rgba(0, 0, 0,0.5), rgba(0, 0, 0, 0.5)),url('../img/CodexGeronimus.png');
 	background-size: cover;
 }
 
 .kratostherapy {
-	background-image: url('../img/kratostherapy.png');
+	background-image: linear-gradient(to bottom, rgba(0, 0, 0,0.5), rgba(0, 0, 0, 0.5)),url('../img/kratostherapy.png');
 	background-size: cover;
 }
 
