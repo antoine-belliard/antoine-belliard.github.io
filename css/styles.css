@@ -1,7 +1,7 @@
 body {
 	font-family: Helvetica;
 	background-image: linear-gradient(
-		to bottom,
+		-45deg,
 		#d70047,
 		#ecf76f);
 	background-color: #d70047;
