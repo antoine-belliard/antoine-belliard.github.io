@@ -179,3 +179,7 @@ body.creations {
 		#d70047,
 		#ecf76f);
 }
+
+body.creations h1 {
+	text-align: center;
+}
