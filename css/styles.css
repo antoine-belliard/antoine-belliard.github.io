@@ -84,7 +84,7 @@ article {
 article>div {
 	margin: 50px 0px 15px;
 	display: flex;
-	align-items: center;
+	align-items: flex-start;
 	border-radius : 25px;
 	max-width: 90%;
 	background-color: white;
