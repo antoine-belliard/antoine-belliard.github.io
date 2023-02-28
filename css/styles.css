@@ -1,55 +1,54 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
 body {
 	font-family: Helvetica;
+}
+
+main {
 	background-image: linear-gradient(
 		-45deg,
-		#d70047,
-		#ecf76f);
+		rgba(238, 130, 238, 0.7),
+		rgba(238, 130, 238, 0.7)), url('../img/moodboard.png');
 	background-color: #d70047;
-	background-repeat: no-repeat;
-	color: white;
-	text-shadow: 1px 1px 2px gray;
+	background-size: contain;
 }
 
 main div {
-	padding: 50px;
+	padding: 15px;
 }
 
-header {
+header nav {
 	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
-
-
-
-nav {
-	display: flex;
-	flex-direction: column;
 	justify-content: space-around;
-	position: fixed;
-	top:50%;
-	margin-top: -150px;
-	height: 300px;
-	vertical-align: middle;
-}
-
-nav div {
-	margin-left: 5px;
-	margin-right: 5px;
 	font-size: 1.5em;
+	background-color: white;
 }
 
-a {
-	color: lightskyblue;
+header nav div {
+	border-left : 1px solid black;
+	border-right: 1px solid black;
+	flex-grow: 1;
+	text-align: center;
 }
 
-nav div a {
-	color:white;
-	text-decoration:none;
+.first {
+	border-left: 0px;
+}
+
+.last {
+	border-right: 0px;
 }
 
 div.profil {
 	text-align: center;
+	background-color: white;
 }
 
 div.profil p {
@@ -59,10 +58,12 @@ div.profil p {
 div.bio {
 	margin-top: 90px;
 	display: flex;
-	max-width: 80%;
+	max-width: 95%;
 	margin-left: auto;
 	margin-right: auto;
 	align-items: center;
+	background-color: white;
+	border-radius: 50px;
 }
 
 div.bio img {
@@ -78,17 +79,27 @@ article {
 	justify-content: center;
 	margin-left: auto;
 	margin-right: auto;
-	/*max-width: 50%;*/
 }
 
-article div {
-	margin : 50px 50px 50px 50px;
-	border-radius : 5px;
-	text-shadow: 1px 1px 2px black;
-	max-width: 30%;
+article>div {
+	margin: 50px 0px 15px;
+	display: flex;
+	align-items: center;
+	border-radius : 25px;
+	max-width: 90%;
+	background-color: white;
 }
 
-.article1 {
+article>div>div {
+	width: 50%;
+	text-align: justify;
+}
+
+article div img {
+	width: 100%;
+}
+
+/*.article1 {
 	display: block;
 	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/epitaph.png');
 	background-size: cover;
@@ -124,17 +135,7 @@ article div {
 .alonewolf {
 	background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/alonewolf.png');
 	background-size: cover;
-}
-
-.centre {
-	text-align: center;
-	font-size: 1.5em;
-}
-
-.centre a {
-	text-decoration: none;
-	color: white;
-}
+}*/
 
 /*Parcours*/
 
@@ -159,16 +160,6 @@ body.bodyparcours {
 
 .parcours a {
 	color: blue;
-}
-
-/*Contact*/
-
-div.contact {
-	display: flex;
-	justify-content: space-around;
-	align-items: baseline;
-	margin-top: 15px;
-	margin-bottom: -5px;
 }
 
 /*Creations*/
