@@ -113,6 +113,10 @@ article div>img {
 	margin: 0px 15px 15px 0px;
 }
 
+.logo:hover {
+	border-color: mediumpurple;
+}
+
 /*.article1 {
 	display: block;
 	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/epitaph.png');
