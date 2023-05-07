@@ -127,6 +127,16 @@ article div>video {
 	border-color: mediumpurple;
 }
 
+
+.iframe {
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  min-height: 315;
+}
+
 /*.article1 {
 	display: block;
 	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/epitaph.png');
