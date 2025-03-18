@@ -1,0 +1,110 @@
+body {
+	font-family: Helvetica, sans-serif;
+}
+
+.header {
+    width: 100%;
+    word-break: break-word;
+    margin-bottom: 0px;
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+    border: 4px solid black;
+    border-radius: 100%;
+    margin: 0px 15px 15px 0px;
+}
+
+.logo:hover {
+    border-color: mediumpurple;
+}
+
+@media only screen and (max-width: 400px) {
+    .description {
+        display: none;
+    }
+}
+
+.sub-heading {
+    font-style : italic;
+    color: grey;
+}
+
+
+.sidebar {
+    width:35%;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar-item {
+    padding-bottom: 10%;
+}
+
+.button {
+    font-size: 25px;
+    color:purple;
+    text-decoration: none;
+}
+
+.button:hover {
+    text-decoration: underline;
+}
+
+.games-list {
+    display:flex;
+    flex-flow: row wrap;
+}
+
+.game {
+    width:350px;
+    text-align: justify;
+    padding: 0% 5% 0% 0%;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gamepics {
+    max-width: 50%;
+    max-height: 250px;
+    height: auto;
+    width: auto;
+}
+
+.vignette {
+    object-fit: cover;
+    width:100%;
+    aspect-ratio: 1/1;
+}
+
+.title {
+    font-size: 2em;
+}
+
+#profil {
+    max-width: 25%;
+}
+
+article {
+    margin-left: 40%;
+    margin-right: 10%;
+}
+
+video {
+    width: 100%;
+}
+
+img {
+    width: 100%;
+}
