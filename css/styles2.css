@@ -72,7 +72,11 @@ body {
 
 .gallery {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 0 1%;
+
+    overflow-y:auto;
+    /*for the sidebar*/
 }
 
 .gamepics {
@@ -94,6 +98,16 @@ body {
 
 #profil {
     max-width: 25%;
+}
+
+.mainarticle {
+    margin-right: 0%;
+    display: flex;
+    flex-direction: row;
+
+    overflow: hidden;
+    height: 100vh;
+    /*for the sidebar*/ 
 }
 
 article {
