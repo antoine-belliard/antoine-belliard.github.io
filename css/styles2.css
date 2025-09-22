@@ -74,9 +74,7 @@ body {
     display: flex;
     flex-direction: column;
     padding: 0 1%;
-
-    overflow-y:auto;
-    /*for the sidebar*/
+    width: 40%;
 }
 
 .gamepics {
@@ -104,10 +102,15 @@ body {
     margin-right: 0%;
     display: flex;
     flex-direction: row;
+}
 
-    overflow: hidden;
-    height: 100vh;
-    /*for the sidebar*/ 
+.mainarticle > div {
+    max-height: 100vh;
+    overflow-y: auto;
+}
+
+.text {
+    max-width: 60%;
 }
 
 article {
@@ -121,4 +124,8 @@ video {
 
 img {
     width: 100%;
+}
+
+p {
+    text-align:justify;
 }
