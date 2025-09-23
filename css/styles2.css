@@ -105,7 +105,8 @@ body {
 }
 
 .mainarticle > div {
-    max-height: 100vh;
+    max-height: 98vh;
+    /*pour éviter l'effet de scroll*/
     overflow-y: auto;
 }
 
@@ -115,7 +116,6 @@ body {
 
 .container {
     position: relative;
-    padding-bottom: 5%;
 }
 
 .whitetitle {
@@ -123,7 +123,7 @@ body {
     font-style: italic;
     color: white;
     margin-left: 2%;
-    text-shadow: 1px 1px 2px grey;
+    text-shadow: 1px 1px 2px black;
 }
 
 article {
